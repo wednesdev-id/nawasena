@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+  }
+
+  body {
+    @apply bg-[#fcfdfc] text-slate-800 antialiased selection:bg-[#165b35] selection:text-white;
+    overflow-x: hidden;
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f5f2;
+}
+::-webkit-scrollbar-thumb {
+  background: #236842;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #154c2d;
+}
+
+/* Elegant Topographic Contour Line Pattern (matching PDF slides 1, 3, 11) */
+.topo-pattern-light {
+  background-image: radial-gradient(rgba(22, 91, 53, 0.08) 1px, transparent 1px);
+  background-size: 28px 28px;
+}
+
+.topo-contour-lines {
+  background-image: repeating-radial-gradient(circle at 100% 100%, transparent 0, transparent 40px, rgba(255, 255, 255, 0.06) 41px, transparent 42px);
+}
+
+.topo-contour-lines-dark {
+  background-image: repeating-radial-gradient(circle at 100% 50%, transparent 0, transparent 35px, rgba(22, 91, 53, 0.06) 36px, transparent 37px);
+}
