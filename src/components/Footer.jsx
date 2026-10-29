@@ -35,16 +35,16 @@ export const Footer = () => {
             <a href="#kontak" className="hover:text-[#0c331e] transition-colors">Kontak</a>
           </div>
 
-          {/* Sponsor Badge in Footer */}
+          {/* Research & Innovation Partner Badge in Footer */}
           <div className="flex items-center gap-3 bg-[#f8faf8] border border-slate-200 p-2.5 rounded-xl">
             <img 
               src="/images/brin-logo.png" 
-              alt="BRIN Sponsor Riset" 
+              alt="Mitra Riset dan Inovasi BRIN" 
               className="h-8 w-auto object-contain"
             />
             <div className="text-left">
-              <div className="text-[10px] font-bold uppercase tracking-wider text-slate-400">Didukung Oleh:</div>
-              <div className="text-xs font-bold text-slate-800">BRIN RI</div>
+              <div className="text-[10px] font-bold uppercase tracking-wider text-slate-400">Mitra Riset & Inovasi</div>
+              <div className="text-xs font-bold text-slate-800">BRIN</div>
             </div>
           </div>
 

@@ -224,7 +224,7 @@ export const Hero = () => {
 
         </motion.div>
 
-        {/* Sponsor Banner: Institutional Accreditation & BRIN Sponsorship */}
+        {/* Research & Innovation Partnership Banner */}
         <motion.div 
           initial={{ opacity: 0, y: 15 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -237,11 +237,11 @@ export const Hero = () => {
             <div className="space-y-1 text-center sm:text-left">
               <div className="inline-flex items-center gap-2">
                 <span className="text-[10px] sm:text-[11px] font-extrabold uppercase tracking-widest text-[#1a683d] bg-[#eaf5ee] px-2 py-0.5 rounded border border-[#1a683d]/20">
-                  Dukungan & Kemitraan Program Riset
+                  Mitra Riset & Inovasi
                 </span>
               </div>
               <p className="text-xs text-slate-600 max-w-xl leading-relaxed">
-                Pengembangan metodologi saintifik dan teknologi pemantauan spasial Nawasena didukung melalui program pembinaan dan fasilitasi riset inovasi nasional.
+                Pengembangan metodologi saintifik dan teknologi pemantauan spasial Nawasena didukung melalui program pembinaan dan fasilitasi riset inovasi nasional bersama BRIN.
               </p>
             </div>
 
@@ -252,8 +252,8 @@ export const Hero = () => {
                 className="h-8 sm:h-10 w-auto object-contain"
               />
               <div className="text-left border-l border-slate-200 pl-2.5">
-                <div className="text-[11px] sm:text-xs font-black text-slate-900 leading-tight">Sponsor Riset & Inovasi</div>
-                <div className="text-[9px] sm:text-[10px] text-slate-500 font-medium">Badan Riset & Inovasi Nasional</div>
+                <div className="text-[11px] sm:text-xs font-black text-slate-900 leading-tight">Mitra Riset & Inovasi</div>
+                <div className="text-[9px] sm:text-[10px] text-slate-500 font-medium">BRIN · Badan Riset dan Inovasi Nasional</div>
               </div>
             </div>
 

@@ -6,7 +6,7 @@ export const companyData = {
   tagline: "ENVIRONMENTAL, FORESTRY & GEOSPATIAL ADVISORY",
   slogan: "Beyond Compliance. Enabling Sustainability.",
   subtitle: "Konsultan Lingkungan, Reklamasi dan Kehutanan",
-  partner: "BRIN (Badan Riset dan Inovasi Nasional)",
+  partner: "Mitra Riset & Inovasi: BRIN (Badan Riset dan Inovasi Nasional)",
   contact: {
     address: "Jln. Contoh Raya No. 123, Yogyakarta",
     phone: "+62 812-3456-7890",

@@ -25,7 +25,7 @@ export const WhyUs = () => {
     },
     {
       num: "02",
-      tag: "Didukung Riset BRIN",
+      tag: "Mitra Riset & Inovasi BRIN",
       title: "Pendekatan Saintifik & Presisi Data",
       desc: "Setiap telaah teknis dan rencana reklamasi didasarkan pada citra drone ortofoto presisi tinggi, uji laboratorium tanah, dan validasi riset ilmiah.",
       clientBenefit: "Rekomendasi akurat 100% berbasis fakta tapak, minim risiko sanksi regulasi.",
